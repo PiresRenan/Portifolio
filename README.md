@@ -5,7 +5,7 @@
 * Renan Santos Pires
 * Email: renan.sp.121@hotmail.com
 * Telefone: +55 11 99359-7029
-* [LinkedIn Profile](https://br.linkedin.com/in/renan-pires-42267b17a)
+* [LinkedIn Profile](https://br.linkedin.com/in/renan-sp/)
 * 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -77,3 +77,5 @@ Este projeto é um portfólio fullstack que demonstra minhas habilidades em dese
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+Copyright (c) 2023 Renan Santos Pires
