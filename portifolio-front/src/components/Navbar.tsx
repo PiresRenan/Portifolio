@@ -1,15 +1,16 @@
 import React from 'react';
+import '../styles/Navbar.css';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between py-4">
-        <div className="text-lg font-bold">Renan's Page</div>
-        <ul className="flex space-x-4">
-          <li><a href="#home" className="hover:text-blue-600">Home</a></li>
-          <li><a href="#about" className="hover:text-blue-600">About</a></li>
-          <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
-          <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
+    <nav className="navbar">
+      <div className="container navbar-container">
+        <div className="navbar-brand">Meu Portfólio</div>
+        <ul className="navbar-links">
+          <li><a href="#home" className="navbar-link">Home</a></li>
+          <li><a href="#about" className="navbar-link">Sobre</a></li>
+          <li><a href="#projects" className="navbar-link">Projetos</a></li>
+          <li><a href="#contact" className="navbar-link">Contato</a></li>
         </ul>
       </div>
     </nav>

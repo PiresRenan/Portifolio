@@ -1,12 +1,13 @@
 import React from 'react';
+import Layout from './components/Layout';
 import Home from './pages/Home';
-import './index.css';
+import './styles/Global.css';
 
 const App: React.FC = () => {
   return (
-    <div className="app-container">
+    <Layout>
       <Home />
-    </div>
+    </Layout>
   );
 };
 

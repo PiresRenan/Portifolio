@@ -1,43 +1,46 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import '../styles/Home.css';
 
 const Home: React.FC = () => {
   return (
     <>
-      <Navbar />
-      <header className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-16 text-center">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold">Hello, I am Renan S. Pires</h1>
-          <p className="text-lg md:text-xl mt-4">Fullstack Developer & Data Scientist</p>
-          <p className="text-sm md:text-base mt-2">Dominance over Python, TypeScript and Java to create efficient and scalable solutions.</p>
+      <header className="home-header">
+        <div className="container">
+          <h1 className="home-title">Olá, eu sou Renan Pires</h1>
+          <p className="home-subtitle">Desenvolvedor Fullstack & Cientista de Dados</p>
+          <p className="home-description">Dominando Python, TypeScript e Java para criar soluções eficientes e escaláveis.</p>
         </div>
       </header>
 
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-semibold mb-4">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="skill-item">
-              <img src="/assets/typescript.svg" alt="TypeScript" className="h-12 mx-auto" />
-              <p className="mt-2">TypeScript</p>
+      <section className="home-skills">
+        <div className="container">
+          <h2 className="section-title">Habilidades</h2>
+          <div className="skills-grid">
+            <div className="skill-card">
+              <img src="/assets/react.svg" alt="React" className="skill-icon" />
+              <p className="skill-name">React</p>
             </div>
-            <div className="skill-item">
-              <img src="/assets/python.svg" alt="Python" className="h-12 mx-auto" />
-              <p className="mt-2">Python</p>
+            <div className="skill-card">
+              <img src="/assets/typescript.svg" alt="TypeScript" className="skill-icon" />
+              <p className="skill-name">TypeScript</p>
             </div>
-            <div className="skill-item">
-              <img src="/assets/java.svg" alt="Java" className="h-12 mx-auto" />
-              <p className="mt-2">Java</p>
+            <div className="skill-card">
+              <img src="/assets/python.svg" alt="Python" className="skill-icon" />
+              <p className="skill-name">Python</p>
+            </div>
+            <div className="skill-card">
+              <img src="/assets/java.svg" alt="Java" className="skill-icon" />
+              <p className="skill-name">Java</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-white">
-        <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-semibold mb-4">About This</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          This project was created to demonstrate my skills as a developer and data scientist. Each section reflects modern practices, intuitive design, and technical excellence.
+      <section className="home-about">
+        <div className="container">
+          <h2 className="section-title">Sobre o Projeto</h2>
+          <p className="about-description">
+            Este portfólio foi criado para demonstrar minhas habilidades como desenvolvedor e cientista de dados. Cada seção reflete práticas modernas, design intuitivo e excelência técnica.
           </p>
         </div>
       </section>
